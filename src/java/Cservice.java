@@ -16,9 +16,10 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class Cservice {
-    
+
+    static int count ;
     static void writeinfo( Content cn){
-         
+
         try {
             File fl = new File("write.txt");
             BufferedWriter output = new BufferedWriter(new FileWriter(fl));
